@@ -1,0 +1,32 @@
+.d-body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 70px ;
+    flex-direction: column;
+    align-items: center;
+
+}
+.d-body svg {
+ width : 20%;
+}
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none;
+}
+.d-text {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: medium;
+}
+.btn-danger {
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    width : 140px;
+    font-weight: bolder;
+}
+

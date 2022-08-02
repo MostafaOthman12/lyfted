@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+}
+
+.contact h2 {
+    font-size: 25px;
+}
+h4 {
+    font-weight: bolder;
+
+}
+.Packages > .C {
+    margin-bottom: 20px;
+}
+
+.Packages > .C > .card > div {
+    color: black !important;
+    background-color: white !important;
+    border-bottom: 5px solid #ff7700;
+}
+
+hr {
+    color: #ff7700;
+    margin: 55px;
+}
+
+.additional .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.additional > .row > .h {
+    width: 30%
+}
+
+.additional .row .h h2 {
+    border-bottom: 3px solid #ff7700;
+}
+
+.polising {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.heading {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid #ff7700;
+}
+
+.polising > :first-child {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.polising > .pol-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pol-ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pol-ul > ul > li {
+    line-height: 3;
+    list-style: none;
+}
+
+.pol-ul > ul > li::before {
+    content: "\2022";
+    color: #ff7700;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.btn-danger {
+    background-color: #ff7700;
+}
+
+.co-ul > div {
+    margin: 20px;
+    border-bottom: 1px solid rgb(224 77 1 / 0.2);
+
+}
+.co-ul :nth-child(3) {
+    border-bottom: none;
+}
+
+
+
+.co-ul > div > ul {
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.l-ul { border-bottom: none !important;}
+

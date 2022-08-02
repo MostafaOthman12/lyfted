@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+body {
+    font-family: "Inter", sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+    text-justify: inter-word;
+}
+
+.box {
+    position: relative;
+    height: 100vh;
+    background-image: url("../img/HomeImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    color: #fff;
+}
+.text > .navbar > .container > a > svg {
+    width: 40%;
+    fill: white;
+}
+
+.header-text {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    line-height: 100%;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+    font-size: 55px;
+}
+.header-text > button {
+    font-family: "Inter", sans-serif;
+    margin-top: 1%;
+    font-weight: 900;
+    text-align: center;
+    line-height: 50%;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline-style: none;
+    border: none;
+    background-color: #ff7700;
+    color: white;
+}
+.header-text > p:last-of-type {
+    color: #ff7700;
+}
+
+.nav {
+    top: 0px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 9px 1px rgb(0 0 0 / 20%);
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff7700;
+    border-bottom: 2px solid #ff7700;
+}
+#navbarNav > ul {
+    width: 70%;
+}
+
+#navbarNav > ul > li {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ff7700;
+}
+
+.navbar-toggler-icon {
+    fill: #ff7700 !important;
+    background-image: url("../img/icons8-menu.svg");
+}
+main {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+main > .sec1 {
+    display: flex;
+    width: 100vw;
+}
+main > .sec1 > div {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+}
+main > .sec1 > div > img {
+    width: 100%;
+    object-fit: cover;
+}
+main > .sec1 > .text1 > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+main > .sec1 > .text1 {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+}
+main > .sec1 > .text1 > h1 > span {
+    border-bottom: 3px solid #ff7700;
+    overflow-wrap: break-word;
+}
+main > .sec1 > .text1 > :nth-child(2) {
+    padding-top: 20px;
+    font-size: 16px;
+    overflow-wrap: break-word;
+    text-align: justify;
+    line-height: 1.5;
+}
+main > .sec1 > .text1 > :nth-child(3) {
+    font-size: 16px;
+    margin-top: 25px;
+}
+main > .sec1 > .text1 > :last-child {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff7700;
+}
+main > .sec1 > .text2{
+    font-size: 16px;
+}
+main > .sec1 > .text2 > ul {
+    color: black;
+    font-size: 25px;
+    list-style: none;
+}
+main > .sec1 > .text2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+main > .sec1 > .text2 > h1 > span {
+    border-bottom: 3px solid #ff7700;
+    overflow-wrap: break-word;
+}
+main > .sec1 > .text2 > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+main > .sec1 > .text2 > :nth-child(2) {
+    margin-top: 2.5%;
+}
+
+main > .sec1 > .text2 > ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #ff7700; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.bar {
+    background-color: #ff7700;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0px 100px;
+}
+.bar > section {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bar > section > img {
+    width: 53px;
+    margin-bottom: 5px;
+}
+.bar > section:nth-child(4) > img {
+    width: 40px;
+}
+
+main > .how-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+main > .how-work > h1 {
+    font-weight: bold;
+}
+
+main > .how-work > h1 > span {
+    border-bottom: 3px solid #ff7700;
+}
+
+main > .how-work > .cards {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+main > .how-work > .cards > section {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main > .how-work > .cards > section > object {
+    text-align: center;
+    width: 40px;
+}
+main > .how-work > .cards > section > h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+}
+main > .how-work > .cards > section > p:first-of-type {
+    color: #ff7700;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.elapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #251d3a;
+    border-radius: 50%;
+}
+.elapse > svg {
+    width: 40%;
+}
+.Packages {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.Packages > h1 {
+    font-weight: bold;
+}
+
+.Packages > h1 > span {
+    border-bottom: 3px solid #ff7700;
+}
+.Packages > .cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.Packages > .cards > .card {
+    justify-items: center;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    margin-left: 20px;
+    border: transparent;
+}
+
+.Packages > .cards > .card > h3 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.Packages > .cards > .card > h3 > span {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.Packages > .cards > .card > ul {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    list-style: none;
+}
+.Packages > .cards > .card > ul > li {
+    font-weight: 700;
+    line-height: 2;
+}
+.Packages > .cards > .card > div {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #e04d01;
+    color: white;
+    padding: 4%;
+}
+.Packages > .cards > .card > a {
+    position: absolute;
+    font-weight: bold;
+    bottom: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #e04d01;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.Packages > .cards > .card > a {
+    align-items: flex-end;
+}
+.Packages > .cards > .card:nth-child(2) > ul > li {
+    line-height: 3;
+}
+.Packages > .cards > .card:nth-child(2) > div {
+    background-color: #2a2550;
+}
+.Packages > .cards > .card:nth-child(2) > a {
+    background-color: #2a2550;
+}
+.Packages > .cards > .card:nth-child(3) > div {
+    background-color: #251d3a;
+}
+
+.Packages > .cards > .card:nth-child(3) > a {
+    background-color: #251d3a;
+}
+.Packages > a {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.Packages > a.btn.btn-outline-danger:hover {
+    color: black;
+    border-color: black;
+}
+
+.Packages > a.btn.btn-outline-danger {
+    color: black;
+    border-color: black;
+}
+.Packages > a.btn.btn-outline-danger:hover,
+.Packages > a.btn.btn-outline-danger:focus,
+.Packages > a.btn.btn-outline-danger:active,
+.Packages > a.btn.btn-outline-danger.active {
+    color: #fff;
+    background-color: #ff7700;
+}
+body {
+    font-family: Arial;
+    font-size: 13px;
+}
+.highlight {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    padding: 9px 4px;
+    writing-mode: vertical-rl;
+    top: -8px;
+    left: 205px;
+    width: 28px;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.red-bg {
+    background: #ff7700;
+}
+
+.highlight:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -15px;
+    top: 0px;
+    width: 10px;
+    border: 33px solid #e04d01;
+    clip-path: polygon(
+        26% -1%,
+        63% -1%,
+        129% 31%,
+        -41% 100%,
+        -34% 100%,
+        -37% 31%
+    );
+}
+
+.testmonial {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testmonial > h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.testmonial > h4 > span {
+    border-bottom: 3px solid #ff7700;
+}
+.tes-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.testmonial > .tes-cards > :nth-child(1) {
+    margin-left: 30px;
+}
+
+.testmonial > .tes-cards > .tes-card {
+    width: 30vw;
+    padding: 10px;
+    margin-right: 30px;
+}
+.testmonial > .tes-cards > .tes-card {
+    width: 30vw;
+    padding: 10px;
+    margin-right: 30px;
+}
+.testmonial > .tes-cards > .tes-card > :nth-child(2) {
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 988px) {
+    .box {
+        position: relative;
+        height: 100vh;
+        background-image: url("../img/HomeImage.jpg"),
+        linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(10px);
+        color: #fff;
+    }
+    .text > .navbar > .container > a > svg {
+        width: 50%;
+        fill: white;
+    }
+
+    .header-text {
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 2px;
+        line-height: 100%;
+        margin-top: 17%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 900;
+        font-size: 55px;
+    }
+    .header-text > button {
+        text-align: center;
+        line-height: 50%;
+        height: 50px;
+        width: 150px;
+        border-radius: 5px;
+        font-size: 16px;
+        outline-style: none;
+        border: none;
+        background-color: #ff7700;
+        color: white;
+    }
+    .header-text > p:last-of-type {
+        color: #ff7700;
+    }
+
+    .navbar-nav .nav-link.active {
+        color: #ffed16;
+        border-bottom: 2px solid #ff7700;
+    }
+    .nav-link:hover {
+        color: #ffed16;
+    }
+
+    nav {
+        top: 0px;
+        background-color: transparent;
+        font-family: "Inter", sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    nav {
+        background-color: #ff7700 !important;
+    }
+    #navbarNav > ul {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+    }
+    #navbarNav > ul > li {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        width: 100%;
+        text-align: center;
+    }
+    #navbarNav > ul :last-child {
+        border: none;
+    }
+}
