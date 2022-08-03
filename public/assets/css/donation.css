@@ -10,14 +10,14 @@
 .d-body svg {
  width : 20%;
 }
-h1 {
-    font-size: 20px;
+h2 {
+    margin-top: 40px;
     font-weight: bold;
     text-transform: none;
 }
 .d-text {
+    margin-top: 20px;
     display: flex;
-    margin-top: 40px;
     justify-content: center;
     align-items: center;
     flex-direction: column;

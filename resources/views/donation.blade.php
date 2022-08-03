@@ -54,7 +54,7 @@
                 AUTO DETAILING
             </text>
         </svg>
-   <h1> Our mission is to make an impact for those who have been impacted. </h1>
+   <h2> Our mission is to make an impact for those who have been impacted. </h2>
         <div class="d-text">
         <p>   We are proudly donante for a non profit organization </p>
         <p> thousands of people like you help us stand up for recovred the impacted people </p>

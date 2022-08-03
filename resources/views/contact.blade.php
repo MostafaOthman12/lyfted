@@ -1,6 +1,8 @@
 @extends('layout')
 @section('imports')
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/service.css">
 @endsection
 @section("main")
     <section class="container">
