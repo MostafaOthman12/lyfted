@@ -1,3 +1,9 @@
+body > h1{
+    text-align: center;
+}
+h1 > span {
+    border-bottom: 5px solid #e04d01 ;
+}
 div{
     border: none !important;
 }

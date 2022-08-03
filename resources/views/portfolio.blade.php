@@ -15,6 +15,7 @@
             </ol>
         </nav>
     </section>
+    <h1>Nothing is <span>ever</span> permanent</h1>
     <section class="rows">
         <section class="img a1">
             <div class="area1"><img src="assets/img/293545355_568030634921629_2819230204539508787_n.jpg"></div>
