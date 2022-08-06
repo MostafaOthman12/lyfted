@@ -42,7 +42,7 @@ body {
 
 @media screen and (max-width: 988px) {
     .navbar > .container > a > svg {
-        width: 50%;
+        width: 40%;
         fill: white;
     }
 

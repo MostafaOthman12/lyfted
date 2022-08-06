@@ -59,7 +59,7 @@
                     <a class="nav-link" href= {{ url('/service')  }}>Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href={{ url('/giftCard') }}>Gift Card</a>
+                    <a class="nav-link" href={{ url('/giftcard') }}>Gift Card</a>
                 </li>
                 <li class="nav-item">
                     <a href= {{url('/profile')}} class="nav-link">Portfolio</a>

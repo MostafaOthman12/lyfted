@@ -30,3 +30,6 @@ Route::get('/donation', function (){
 Route::get('/profile', function (){
     return view('portfolio');
 });
+Route::get('/giftcard', function (){
+    return view('giftcard');
+});

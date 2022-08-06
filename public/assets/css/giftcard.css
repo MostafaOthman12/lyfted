@@ -1,0 +1,21 @@
+.giftcard {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.giftcard > .sec1 {
+width: 50%;
+    margin-right: 20px;
+}
+.giftcard > section > img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.giftcard > .sec2 > p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Inter" , sans-serif;
+    font-weight: 400;
+}
