@@ -1,0 +1,46 @@
+.book{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+ .r {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     margin-bottom: 100px;
+ }
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.r h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+
+.alert-danger{
+    background-color: rgba(255, 119, 0, 0.33);
+    width: fit-content;
+}
+.r a{
+margin-top: 20px;
+    width: fit-content;
+}
+form {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+form > :last-child {
+    text-align: center;
+}
+form .row {
+    margin-top: 20px;
+}
