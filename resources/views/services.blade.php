@@ -184,7 +184,7 @@
                         <section class="pol-body">
                             <section class="co-ul">
                                 <div class="l-ul">
-                                    <ul >
+                                    <ul>
                                         <li>HEADLIGHT RESTORATION</li>
                                         <li>69.00</li>
                                         <li><a class="btn btn-danger">Book now</a>

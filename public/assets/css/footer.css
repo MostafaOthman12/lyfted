@@ -46,3 +46,9 @@ footer > .footer-sec2 > section > h5 {
 footer > .footer-sec2 > section > ul {
     list-style: none;
 }
+
+.footer-sec2 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}

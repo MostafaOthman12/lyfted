@@ -54,11 +54,11 @@
                 AUTO DETAILING
             </text>
         </svg>
-   <h2> Our mission is to make an impact for those who have been impacted. </h2>
+        <h2> Our mission is to make an impact for those who have been impacted. </h2>
         <div class="d-text">
-        <p>   We are proudly donante for a non profit organization </p>
-        <p> thousands of people like you help us stand up for recovred the impacted people </p>
-        <p>  we rely on donation for those people and we will be happy if you would be part of it </p>
+            <p> We are proudly donante for a non profit organization </p>
+            <p> thousands of people like you help us stand up for recovred the impacted people </p>
+            <p> we rely on donation for those people and we will be happy if you would be part of it </p>
         </div>
 
         <a class="btn btn-danger">

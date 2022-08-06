@@ -69,13 +69,13 @@
                             <a class="nav-link" href={{ url('/giftCard') }}>Gift Card</a>
                         </li>
                         <li class="nav-item">
-                            <a href= {{url('/profile')}} class="nav-link">Portfolio</a>
+                            <a href={{url('/profile')}} class="nav-link">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a href= {{ url('/donation') }} class="nav-link">Donation</a>
+                            <a href={{ url('/donation') }} class="nav-link">Donation</a>
                         </li>
                         <li class="nav-item">
-                            <a href= {{ url('/contact') }} class="nav-link">Contact</a>
+                            <a href={{ url('/contact') }} class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -89,7 +89,7 @@
     </header>
     <main>
         <section class="sec1">
-            <div><img src={{ asset("assets/img/Rectangle38.png")}} alt="" /></div>
+            <div><img src={{ asset("assets/img/Rectangle38.png")}} alt=""/></div>
             <div class="text1">
                 <h1><span>ABOU</span>T US</h1>
                 <p>
@@ -126,24 +126,24 @@
                     <li>Same day for most services</li>
                 </ul>
             </div>
-            <div><img src={{ asset("assets/img/Rectangle103.png")}} alt="icon" /></div>
+            <div><img src={{ asset("assets/img/Rectangle103.png")}} alt="icon"/></div>
         </section>
         <section class="bar">
             <section>
-                <img src={{ asset("assets/img/icon-1.svg")}} alt="icon" />
+                <img src={{ asset("assets/img/icon-1.svg")}} alt="icon"/>
                 <p>ATTENTION TO DETAILS</p>
             </section>
             <section>
-                <img src={{asset("assets/img/icons8-delivery-91.svg")}} alt="" />
+                <img src={{asset("assets/img/icons8-delivery-91.svg")}} alt=""/>
 
                 <p>ATTENTION TO DETAILS</p>
             </section>
             <section>
-                <img src={{asset("assets/img/charity-donation-hand-love.svg")}} alt="" />
+                <img src={{asset("assets/img/charity-donation-hand-love.svg")}} alt=""/>
                 <p>ATTENTION TO DETAILS</p>
             </section>
             <section>
-                <img src={{asset("assets/img/policy.svg")}} alt="" />
+                <img src={{asset("assets/img/policy.svg")}} alt=""/>
                 <p>ATTENTION TO DETAILS</p>
             </section>
         </section>
