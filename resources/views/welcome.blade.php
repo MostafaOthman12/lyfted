@@ -84,7 +84,7 @@
         <section class="header-text">
             <p>GIVE YOUR CAR</p>
             <p>THE BEST TREAT</p>
-            <button>GET STARTED</button>
+            <a class="btn btn-danger" href="#Packages">GET STARTED</a>
         </section>
     </header>
     <main>
@@ -136,15 +136,15 @@
             <section>
                 <img src={{asset("assets/img/icons8-delivery-91.svg")}} alt=""/>
 
-                <p>ATTENTION TO DETAILS</p>
+                <p>WE COME TO YOU</p>
             </section>
             <section>
                 <img src={{asset("assets/img/charity-donation-hand-love.svg")}} alt=""/>
-                <p>ATTENTION TO DETAILS</p>
+                <p>WE'RE TRUSTED</p>
             </section>
             <section>
                 <img src={{asset("assets/img/policy.svg")}} alt=""/>
-                <p>ATTENTION TO DETAILS</p>
+                <p>WARRANTY-BACKED</p>
             </section>
         </section>
         <section class="how-work">
@@ -245,7 +245,7 @@
             </div>
         </section>
 
-        <section class="Packages">
+        <section id="Packages" class="Packages">
             <h1>PA<span>CKAG</span>ES</h1>
             <p>
                 We offer a full range of detailing services to vehicles, campers,
@@ -305,7 +305,7 @@
                     <a class="btn">BOOK NOW</a>
                 </section>
             </section>
-            <a href="#" class="btn btn-outline-danger">VIEW ALL SERVICES</a>
+            <a href="/service" class="btn btn-outline-danger">VIEW ALL SERVICES</a>
         </section>
         <section class="testmonial">
             <h4>WHAT OUR C<span>LIENT</span>S ARE SAYING</h4>

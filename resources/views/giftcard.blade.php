@@ -22,6 +22,7 @@
             <section class="sec2">
 <p>Explore our gift cards and enjoy discount vouchers <br> 10%, 20%, 30%, 40% off the service, those Tickets that <br> are available to purchase at a price below <br>
     the card in the directed site.</p>
+                <a class="btn-danger btn"> BOOK NOW</a>
             </section>
         </section>
     </section>

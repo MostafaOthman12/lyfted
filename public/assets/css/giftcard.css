@@ -19,3 +19,10 @@ width: 50%;
     font-family: "Inter" , sans-serif;
     font-weight: 400;
 }
+
+.sec2 > a {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    width: 35%;
+    font-size: 14px;
+}
