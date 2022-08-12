@@ -74,10 +74,12 @@
     }
 
     nav {
-        background-color: transparent;
         font-family: "Inter", sans-serif;
         font-size: 14px;
         font-weight: bold;
+        position: fixed !important;
+        background-color: rgb(70, 23, 99);
+
     }
 
 
