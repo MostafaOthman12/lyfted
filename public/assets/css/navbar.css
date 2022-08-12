@@ -3,6 +3,7 @@ body {
     background-color: white;
     overflow-x: hidden;
 }
+
 .navbar {
     top: 0px;
     font-weight: bold;
@@ -13,10 +14,11 @@ body {
     color: #ff7700;
     border-bottom: 2px solid #ff7700;
 }
+
 #navbarNav > ul {
     width: 70%;
     font-size: 13px;
-    font-weight: bolder ;
+    font-weight: bolder;
 }
 
 #navbarNav > ul > li {
@@ -24,6 +26,10 @@ body {
     text-decoration: none;
     color: #fff;
     width: 100%;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 .nav-link {
@@ -42,18 +48,24 @@ body {
 
 @media screen and (max-width: 988px) {
     .navbar > .container > a > svg {
-        width: 40%;
+        width: 100%;
         fill: white;
+    }
+
+    .navbar > .container > a {
+        width: 40%;
     }
 
     .navbar-nav .nav-link.active {
         color: #ffed16;
         border-bottom: 2px solid #ff7700;
     }
+
     .navbar-nav .nav-link {
         color: white;
         border-bottom: 2px solid #ff7700;
     }
+
     .nav-link:hover {
         color: #ffed16;
     }
@@ -69,12 +81,14 @@ body {
     nav {
         background-color: #ff7700 !important;
     }
+
     #navbarNav > ul {
         list-style: none;
         text-decoration: none;
         color: #fff;
         width: 100%;
     }
+
     #navbarNav > ul > li {
         list-style: none;
         text-decoration: none;
@@ -83,6 +97,7 @@ body {
         width: 100%;
         text-align: center;
     }
+
     #navbarNav > ul :last-child {
         border: none;
     }

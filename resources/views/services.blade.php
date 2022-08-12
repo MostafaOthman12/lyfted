@@ -35,7 +35,7 @@
                         <li>Tire Trunk Vacuumed</li>
                         <li>Refreshing Odor Neutralizer</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "Basic interior" ])}}" class="btn">BOOK NOW</a>
                 </section>
 
                 <section class="card pb-3 mb-2 bg-body shadow-lg rounded">
@@ -48,7 +48,7 @@
                         <li>Tire Restoration / Shine</li>
                         <li>UV Protectant</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "Exterior" ])}}" class="btn">BOOK NOW</a>
                 </section>
             </section>
             <section class="cards">
@@ -68,7 +68,7 @@
                         <li>1 Set of Mats</li>
                         <li>Odor Removal</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "premium" ])}}" class="btn">BOOK NOW</a>
                 </section>
                 <section class="card pb-3 mb-2 bg-body shadow-lg rounded">
                     <span class="highlight red-bg ribbon">Popular</span>
@@ -84,7 +84,7 @@
                         <li>Tire Restoration</li>
                         <li>UV Protectant</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "elegance" ])}}" class="btn">BOOK NOW</a>
                 </section>
                 <section class="card pb-3 mb-2 bg-body shadow-lg rounded">
                     <div>FIVE DIAMOND</div>
@@ -102,7 +102,7 @@
                         <li>Brake Dust Removal</li>
                         <li>Paint Swirl Removal</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "five diamond" ])}}" class="btn">BOOK NOW</a>
                 </section>
             </section>
         </section>
@@ -131,7 +131,7 @@
                         </ul>
                     </section>
 
-                    <a class="btn btn-danger">Book now</a>
+                    <a href="{{route("booking.index",["type" => "polishing" ])}}" class="btn btn-danger">Book now</a>
                 </section>
 
 
@@ -150,7 +150,8 @@
                                     <ul>
                                         <li>Compact</li>
                                         <li>$799.00</li>
-                                        <li><a class="btn btn-danger">Book now</a>
+                                        <li><a href="{{route("booking.index",["type" => "ceramic coating|compact" ])}}"
+                                               class="btn btn-danger">Book now</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -158,7 +159,8 @@
                                     <ul>
                                         <li>Mid-Size</li>
                                         <li>$899.00</li>
-                                        <li><a class="btn btn-danger">Book now</a>
+                                        <li><a href="{{route("booking.index",["type" => "ceramic coating|mid-size" ])}}"
+                                               class="btn btn-danger">Book now</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -166,7 +168,9 @@
                                     <ul>
                                         <li>Full-Size</li>
                                         <li>$999.00</li>
-                                        <li><a class="btn btn-danger">Book now</a>
+                                        <li>
+                                            <a href="{{route("booking.index",["type" => "ceramic coating|full-size" ])}}"
+                                               class="btn btn-danger">Book now</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -187,7 +191,8 @@
                                     <ul>
                                         <li>HEADLIGHT RESTORATION</li>
                                         <li>69.00</li>
-                                        <li><a class="btn btn-danger">Book now</a>
+                                        <li><a href="{{route("booking.index",["type" => "headlight restoration" ])}}"
+                                               class="btn btn-danger">Book now</a>
                                         </li>
                                     </ul>
                                 </div>

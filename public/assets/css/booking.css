@@ -44,3 +44,10 @@ form > :last-child {
 form .row {
     margin-top: 20px;
 }
+.type{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+}

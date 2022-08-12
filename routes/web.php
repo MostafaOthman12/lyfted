@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,6 +32,4 @@ Route::get('/profile', function () {
 Route::get('/giftcard', function () {
     return view('giftcard');
 });
-Route::get("/booking", function () {
-    return view("booking");
-});
+Route::resource('booking', "App\\Http\\Controllers\\BookingController");

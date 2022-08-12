@@ -268,7 +268,7 @@
                         <li>1 Set of Mats</li>
                         <li>Odor Removal</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "premium" ])}}" class="btn">BOOK NOW</a>
                 </section>
                 <section class="card pb-3 mb-2 bg-body shadow-lg rounded">
                     <span class="highlight red-bg ribbon">Popular</span>
@@ -284,7 +284,7 @@
                         <li>Tire Restoration</li>
                         <li>UV Protectant</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "Elegance" ])}}" class="btn">BOOK NOW</a>
                 </section>
                 <section class="card pb-3 mb-2 bg-body shadow-lg rounded">
                     <div>FIVE DIAMOND</div>
@@ -302,7 +302,7 @@
                         <li>Brake Dust Removal</li>
                         <li>Paint Swirl Removal</li>
                     </ul>
-                    <a class="btn">BOOK NOW</a>
+                    <a href="{{route("booking.index",["type" => "five diamond" ])}}" class="btn">BOOK NOW</a>
                 </section>
             </section>
             <a href="/service" class="btn btn-outline-danger">VIEW ALL SERVICES</a>
