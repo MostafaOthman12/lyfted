@@ -110,5 +110,4 @@
         </section>
     </section>
     <p>Lyfted Auto Detailing © 2022. All Rights Reserved.</p>
-
 </footer>

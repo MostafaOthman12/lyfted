@@ -1,11 +1,11 @@
 footer {
+    display: flex;
     color: #fff;
     background-color: #251d3a;
     width: 100vw;
 }
-
 footer > .footer-sec1 {
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 30px;
     padding-top: 50px;
     padding-left: 50px;
@@ -31,6 +31,7 @@ footer > .footer-sec1 :nth-child(3) {
 }
 
 footer > .footer-sec2 {
+    display: flex;
     margin: 0px 50px;
     padding: 30px;
     width: 60vw;
@@ -59,9 +60,7 @@ footer > .footer-sec2 > section > ul {
 }
 
 footer > :last-child {
-    align-items: flex-end;
     font-size: 14px;
-    margin-top: 102px;
     opacity: 50%;
 }
 
@@ -72,6 +71,11 @@ footer > :last-child {
         align-content: center;
         justify-content: center;
         align-items: center;
+    }
+    footer p {
+        margin-top: 5px;
+        font-size: 15px;
+        margin-bottom: 1rem;
     }
 
     footer > .footer-sec1 {
