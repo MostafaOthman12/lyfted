@@ -1,5 +1,5 @@
-<footer class="d-flex">
-    <section class="footer-sec1 d-flex">
+<footer >
+    <section class="footer-sec1">
         <svg
             id="Layer_1"
             data-name="Layer 1"
@@ -42,9 +42,8 @@
             performed by highly trained detailing professionals that you can
             trust Start to Finish!
         </p>
-        <p>Lyfted Auto Detailing © 2022. All Rights Reserved.</p>
     </section>
-    <section class="footer-sec2 d-flex">
+    <section class="footer-sec2 ">
         <section>
             <h5>CONTACT</h5>
             <p>
@@ -110,4 +109,6 @@
             </p>
         </section>
     </section>
+    <p>Lyfted Auto Detailing © 2022. All Rights Reserved.</p>
+
 </footer>

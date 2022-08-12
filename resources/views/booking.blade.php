@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/booking.css">
 @endsection
 @section("main")
-    <div class="container">
+    <div class="container-fluid">
         <h1>GIFT CARD</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">

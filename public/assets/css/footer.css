@@ -17,21 +17,25 @@ footer > .footer-sec1 > svg {
     fill: #fff;
     width: 30%;
 }
+
 footer > .footer-sec1 :nth-child(2) {
     font-size: 12px;
     padding-top: 30px;
 }
+
 footer > .footer-sec1 :nth-child(3) {
     align-items: flex-end;
     font-size: 14px;
     margin-top: 102px;
     opacity: 50%;
 }
+
 footer > .footer-sec2 {
     margin: 0px 50px;
     padding: 30px;
     width: 60vw;
 }
+
 footer > .footer-sec2 > section {
     font-size: 12px;
     margin: 0px 50px;
@@ -43,6 +47,7 @@ footer > .footer-sec2 > section > h5 {
     font-size: 16px;
     color: #ff7700;
 }
+
 footer > .footer-sec2 > section > ul {
     list-style: none;
 }
@@ -51,4 +56,90 @@ footer > .footer-sec2 > section > ul {
     text-decoration: none;
     cursor: pointer;
     color: white;
+}
+
+footer > :last-child {
+    align-items: flex-end;
+    font-size: 14px;
+    margin-top: 102px;
+    opacity: 50%;
+}
+
+@media screen and (max-width: 988px) {
+    footer {
+        display: flex !important;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer > .footer-sec1 {
+        flex-direction: column;
+        display: flex;
+        width: 100vw;
+        align-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    footer > .footer-sec1 > svg {
+        color: #fff;
+        fill: #fff;
+        width: 30%;
+    }
+
+    footer > .footer-sec1 :nth-child(2) {
+        font-size: 15px;
+        padding-top: 30px;
+        width: 50%;
+        text-align: center;
+        line-height: 28px;
+    }
+
+    footer > .footer-sec2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+    }
+
+    footer > .footer-sec2 > section {
+        display: flex;
+        font-size: 12px;
+        margin: 0px;
+        width: 100vw;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    footer > .footer-sec2 > section > h5 {
+        font-weight: bold;
+        font-size: 16px;
+        color: #ff7700;
+    }
+
+    footer > .footer-sec2 > section > ul {
+        list-style: none;
+    }
+
+    .footer-sec2 a {
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+    }
+
+    footer > :last-child {
+        text-align: center;
+        align-items: flex-end;
+        font-size: 14px;
+        margin-top: 102px;
+        opacity: 50%;
+    }
 }

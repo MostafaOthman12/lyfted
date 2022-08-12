@@ -507,7 +507,7 @@ body {
     .box {
         position: relative;
         height: 100vh;
-        background: linear-gradient(rgb(53, 23, 72), rgb(37, 29, 58));
+        background-image: Linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -571,16 +571,16 @@ body {
 
     nav {
         top: 0px;
-        background-color: transparent !important;
+        background-color: transparent;
         font-family: "Inter", sans-serif;
         font-size: 14px;
         font-weight: bold;
     }
-    
+
+
     .navbar > .container > a {
         width: 50%;
     }
-
     .navbar > .container {
         padding: 0px 20px;
     }
@@ -596,9 +596,10 @@ body {
         list-style: none;
         text-decoration: none;
         color: #fff;
-        border-bottom: 2px solid #fff;
+        border-bottom: 1px solid #fff;
         width: 100%;
         text-align: center;
+        padding: 5px;
     }
 
     #navbarNav > ul :last-child {

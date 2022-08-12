@@ -53,7 +53,7 @@ body {
     }
 
     .navbar > .container > a {
-        width: 40%;
+        width: 30%;
     }
 
     .navbar-nav .nav-link.active {
@@ -95,10 +95,17 @@ body {
         color: #fff;
         border-bottom: 2px solid #fff;
         width: 100%;
+        font-size: 14px;
         text-align: center;
     }
 
     #navbarNav > ul :last-child {
         border: none;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
     }
 }
