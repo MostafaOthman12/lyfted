@@ -27,8 +27,8 @@
         width: 100%;
         height: 20%;
         background-color:  rgb(37, 29, 58);
-        clip-path: polygon(0% 0%, 100% 0, 100% 48%, 35% 25%, 0 25%);
-    }
+        clip-path: polygon(0% 0%, 100% 0, 100% 55%, 53% 23%, 0 26%);
+        }
 
     .text > .navbar > .container > a > svg {
         width: 50%;
