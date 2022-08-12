@@ -117,16 +117,15 @@
     }
 
     main > .s1 {
-        margin: 0 20px;
+        padding: 31px;
+        width: 100%;
         display: flex;
-        width: 100vw;
         flex-direction: column-reverse;
         justify-content: center;
         border-bottom: 1px solid #ff7700;
     }
 
     main > .s1 > div {
-        width: 100vw;
         display: none;
     }
 
@@ -139,7 +138,7 @@
     main > .s1 > .text1 {
         display: flex;
         flex-direction: column;
-        padding: 2.5%;
+        width: 100%
     }
 
     main > .sec1 > .text1 > h1 > span {
@@ -164,15 +163,17 @@
         color: #ff7700;
     }
 
-    main > .s2{
+    main > .s2 {
         display: flex;
         width: 100vw;
         flex-direction: column;
         align-items: center;
     }
-    main > .s2 >div {
+
+    main > .s2 > div {
         display: none;
     }
+
     main > .s2 > .text2 {
         font-size: 16px;
         display: flex;
