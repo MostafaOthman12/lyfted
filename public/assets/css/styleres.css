@@ -132,18 +132,20 @@
 
     main > .s1 > .text1 > h1 {
         font-family: "Montserrat", sans-serif;
+        width: fit-content;
         font-weight: 700;
+        border-bottom: 3px solid #ff7700;
+    }
+
+    main > .s1 > .text1 > h1 > span {
+
+        border-bottom: none;
     }
 
     main > .s1 > .text1 {
         display: flex;
         flex-direction: column;
         width: 100%
-    }
-
-    main > .sec1 > .text1 > h1 > span {
-        border-bottom: 3px solid #ff7700;
-        overflow-wrap: break-word;
     }
 
     main > .s1 > .text1 > :nth-child(2) {
@@ -158,14 +160,14 @@
     }
 
     main > .sec1 > .text1 > :last-child {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         color: #ff7700;
     }
 
     main > .s2 {
         display: flex;
-        width: 100vw;
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
@@ -179,21 +181,33 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        align-items: center;
+        padding: 20px;
     }
-
+    main > .s2 > .text2 > :nth-child(2) {
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 32px;
+    }
     main > .sec1 > .text2 > ul {
         color: black;
-        font-size: 25px;
+        font-size: 22px;
         list-style: none;
+        font-weight: 700;
+        line-height: 3;
+        margin: 0;
     }
 
-    main > .sec1 > .text2 > h1 > span {
-        border-bottom: 3px solid #ff7700;
+    main > .s2 > .text2 > h1 > span {
+        border-bottom: none;
     }
 
     main > .s2 > .text2 > h1 {
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
+        width: fit-content;
+        border-bottom: 3px solid #ff7700;
+
     }
 
     main > .sec1 > .text2 > ul li::before {

@@ -93,18 +93,7 @@
             <div><img src={{ asset("assets/img/Rectangle38.png")}} alt=""/></div>
             <div class="text1">
                 <h1><span>ABOU</span>T US</h1>
-                <p>
-                    Our goal at <strong>LYFTED Auto Detailing </strong> is to get the
-                    job done right the first time, every time. Whether it may be your
-                    vehicle or fleet needing a complete exterior or interior detailing,
-                    we pride ourselves on providing the personalized service and fair
-                    prices you can expect from a locally-owned and operated business. If
-                    any issues arise while we’ve got your vehicle, our owner is on-site
-                    to provide the best possible care for you and your vehicle. We have
-                    proudly served residents and businesses of Calgary & Surrounding
-                    Area since 2020, offering reliable auto detailing services you can
-                    count on the first time.
-                </p>
+                <p>Our goal at <strong>LYFTED Auto Detailing </strong> is to get the job done right the first time, every time. Whether it may be your vehicle or fleet needing a complete exterior or interior detailing, we pride ourselves on providing the personalized service and fair prices you can expect from a locally-owned and operated business. If any issues arise while we’ve got your vehicle, our owner is on-site to provide the best possible care for you and your vehicle. We have proudly served residents and businesses of Calgary & Surrounding Area since 2020, offering reliable auto detailing services you can count on the first time.</p>
                 <p>
                     We offer a full range of auto detailing services to located in
                     Calgary Alberta.
