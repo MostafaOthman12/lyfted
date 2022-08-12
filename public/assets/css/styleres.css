@@ -269,15 +269,18 @@
     }
 
     main > .how-work > .cards {
-        padding: 50px;
+        padding: 0px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     main > .how-work > .cards > section {
-        margin-left: 50px;
+        margin: 15px 74px;
         display: flex;
+        text-align: center;
         flex-direction: column;
+        align-content: center;
+        align-items: center;
     }
 
     main > .how-work > .cards > section > object {
