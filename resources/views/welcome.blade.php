@@ -1,6 +1,7 @@
 @extends('layout')
 @section('imports')
     <link href={{ asset("assets/css/style.css")}} rel="stylesheet">
+    <link href={{ asset("assets/css/styleres.css")}} rel="stylesheet">
 @endsection
 @section('main')
     <div class="box"></div>
@@ -88,7 +89,7 @@
         </section>
     </header>
     <main>
-        <section class="sec1">
+        <section class="sec1 s1">
             <div><img src={{ asset("assets/img/Rectangle38.png")}} alt=""/></div>
             <div class="text1">
                 <h1><span>ABOU</span>T US</h1>
@@ -111,7 +112,7 @@
                 <p>We Even Come To You</p>
             </div>
         </section>
-        <section class="sec1">
+        <section class="sec1 s2">
             <div class="text2">
                 <h1><span>WHAT</span> WE OFFER</h1>
                 <p>

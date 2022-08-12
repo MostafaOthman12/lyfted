@@ -116,7 +116,6 @@ main > .sec1 {
 
 main > .sec1 > div {
     width: 50vw;
-    height: 70vh;
     display: flex;
 }
 
@@ -503,111 +502,4 @@ body {
 }
 
 
-@media screen and (max-width: 988px) {
-    .box {
-        position: relative;
-        height: 100vh;
-        background-image: Linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
 
-    .text {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.7);
-        backdrop-filter: blur(10px);
-        color: #fff;
-    }
-
-    .text > .navbar > .container > a > svg {
-        width: 50%;
-        fill: white;
-    }
-
-    .header-text {
-        font-family: Montserrat, sans-serif;
-        letter-spacing: 2px;
-        line-height: 100%;
-        margin-top: 17%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-weight: 900;
-        font-size: 55px;
-    }
-
-    .header-text > button {
-        text-align: center;
-        line-height: 50%;
-        height: 50px;
-        width: 150px;
-        border-radius: 5px;
-        font-size: 16px;
-        outline-style: none;
-        border: none;
-        background-color: #ff7700;
-        color: white;
-    }
-
-    .header-text > p:last-of-type {
-        color: #ff7700;
-    }
-
-    .navbar-nav .nav-link.active {
-        color: #ffed16;
-        border-bottom: 2px solid #ff7700;
-    }
-
-    .nav-link:hover {
-        color: #ffed16;
-    }
-
-    nav {
-        top: 0px;
-        background-color: transparent;
-        font-family: "Inter", sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-
-    .navbar > .container > a {
-        width: 50%;
-    }
-    .navbar > .container {
-        padding: 0px 20px;
-    }
-
-    #navbarNav > ul {
-        list-style: none;
-        text-decoration: none;
-        color: #fff;
-        width: 100%;
-    }
-
-    #navbarNav > ul > li {
-        list-style: none;
-        text-decoration: none;
-        color: #fff;
-        border-bottom: 1px solid #fff;
-        width: 100%;
-        text-align: center;
-        padding: 5px;
-    }
-
-    #navbarNav > ul :last-child {
-        border: none;
-    }
-
-    .navbar-toggler:focus {
-        box-shadow: none;
-    }
-
-}
