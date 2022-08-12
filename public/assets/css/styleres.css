@@ -275,7 +275,7 @@
     }
 
     main > .how-work > .cards > section {
-        margin: 15px 74px;
+        margin: 15px 60px;
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -333,7 +333,11 @@
 
     .Packages > .cards {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
+    .Packages > p{
+        text-align: center;
+        margin-top: 10px;
     }
 
     .Packages > .cards > .card {
