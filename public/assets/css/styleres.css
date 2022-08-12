@@ -525,7 +525,9 @@
     .testmonial > .tes-cards > .tes-card {
         width: 100%;
         padding: 10px;
+        margin: 0;
         margin-top: 20px;
+
     }
 
 
