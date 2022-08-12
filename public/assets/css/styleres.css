@@ -35,12 +35,12 @@
         font-family: Montserrat, sans-serif;
         letter-spacing: 2px;
         line-height: 100%;
-        margin-top: 36%;
+        margin-top: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         font-weight: 900;
-        font-size: 38px;
+        font-size: 30px;
     }
 
     .header-text > button {
@@ -151,7 +151,7 @@
     main > .s1 > .text1 > :nth-child(2) {
         font-size: 18px;
         padding: 10px;
-        text-align: justify;
+        text-align: left;
     }
 
     main > .sec1 > .text1 > :nth-child(3) {
@@ -184,14 +184,16 @@
         align-items: center;
         padding: 20px;
     }
+
     main > .s2 > .text2 > :nth-child(2) {
         margin-top: 25px;
         font-size: 20px;
         line-height: 32px;
     }
+
     main > .sec1 > .text2 > ul {
         color: black;
-        font-size: 22px;
+        font-size: 15px;
         list-style: none;
         font-weight: 700;
         line-height: 3;
@@ -226,9 +228,11 @@
         color: white;
         font-weight: bold;
         display: flex;
-        justify-content: space-between;
-        width: 100vw;
-        padding: 0px 100px;
+        width: 100%;
+        padding: 27px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        flex-direction: row;
     }
 
     .bar > section {
