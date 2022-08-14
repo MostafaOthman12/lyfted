@@ -2,19 +2,22 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 70px ;
+    margin: 70px;
     flex-direction: column;
     align-items: center;
 
 }
+
 .d-body svg {
- width : 20%;
+    width: 20%;
 }
+
 h2 {
     margin-top: 40px;
     font-weight: bold;
     text-transform: none;
 }
+
 .d-text {
     margin-top: 20px;
     display: flex;
@@ -23,10 +26,45 @@ h2 {
     flex-direction: column;
     font-size: medium;
 }
+
 .btn-danger {
     font-family: "Inter", sans-serif;
     margin-top: 20px;
-    width : 140px;
+    width: 140px;
     font-weight: bolder;
 }
 
+@media screen and (max-width: 988px) {
+    .d-body {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0 0 40px 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .d-body svg {
+        width: 50%;
+    }
+
+    h2 {
+        margin-top: 26px;
+        font-weight: bold;
+        text-transform: none;
+        font-size: 1.16rem;
+        text-align: justify;
+    }
+
+    .d-text {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
