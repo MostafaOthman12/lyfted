@@ -43,6 +43,11 @@
         margin-bottom: 22px;
     }
 
+    .sec2 > a {
+        width: 45%;
+        font-size: 14px;
+    }
+
     .sec2 {
         margin: 0px 40px;
         display: flex;
