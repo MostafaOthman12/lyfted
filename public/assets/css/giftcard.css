@@ -4,19 +4,22 @@
     display: flex;
     align-items: center;
 }
+
 .giftcard > .sec1 {
-width: 50%;
+    width: 50%;
     margin-right: 20px;
 }
+
 .giftcard > section > img {
     width: 100%;
     border-radius: 10px;
 
 }
+
 .giftcard > .sec2 > p {
     text-align: justify;
     font-size: 20px;
-    font-family: "Inter" , sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
@@ -25,4 +28,38 @@ width: 50%;
     font-weight: 900;
     width: 35%;
     font-size: 14px;
+}
+
+@media screen and (max-width: 988px) {
+    .giftcard {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .giftcard > .sec1 {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 22px;
+    }
+
+    .sec2 {
+        margin: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .sec2 > p > br {
+        display: none;
+    }
+
+    .sec2 > p {
+        text-align: justify;
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+    }
 }
