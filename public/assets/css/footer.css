@@ -4,6 +4,7 @@ footer {
     background-color: #251d3a;
     width: 100vw;
 }
+
 footer > .footer-sec1 {
     flex-direction: row;
     margin-left: 30px;
@@ -71,7 +72,9 @@ footer > :last-child {
         align-content: center;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
+
     footer p {
         margin-top: 5px;
         font-size: 1rem;
@@ -81,12 +84,12 @@ footer > :last-child {
     footer > .footer-sec1 {
         flex-direction: column;
         display: flex;
-        width: 100vw;
+        width: 100%;
         align-content: center;
         align-items: center;
-        margin-left: 0px;
+        margin-left: 0;
         margin-top: 20px;
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     footer > .footer-sec1 > svg {
@@ -108,9 +111,9 @@ footer > :last-child {
         flex-direction: column-reverse;
         align-content: center;
         align-items: center;
-        margin: 0px;
-        padding: 0px;
-        width: 100vw;
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 
     footer > .footer-sec2 > section {
@@ -125,20 +128,17 @@ footer > :last-child {
 
     footer > .footer-sec2 > section > h5 {
         font-weight: bold;
-        font-size: 16px;
+        font-size: 15px;
         color: #ff7700;
     }
-
     footer > .footer-sec2 > section > ul {
         list-style: none;
     }
-
     .footer-sec2 a {
         text-decoration: none;
         cursor: pointer;
         color: white;
     }
-
     footer > :last-child {
         text-align: center;
         align-items: flex-end;
