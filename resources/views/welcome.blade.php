@@ -7,7 +7,7 @@
     <section class="shape">
         <div class="box"></div>
         <header class="text">
-            <nav class="navbar navbar-expand-lg fixed ">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a title="home" href={{ url('/') }}>
                         <svg
