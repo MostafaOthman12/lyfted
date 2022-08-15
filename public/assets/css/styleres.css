@@ -1,13 +1,13 @@
 @media screen and (max-width: 988px) {
+
     .box {
         position: relative;
-        height: 80vh;
+        height: 60vh;
         background-image: Linear-gradient(rgb(70, 23, 99), rgb(37, 29, 58));
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 
     .text {
         display: flex;
@@ -15,7 +15,7 @@
         position: absolute;
         top: 0;
         width: 100vw;
-        height: 80vh;
+        height: 60vh;
         background-color: rgba(0, 0, 0, 0);
         backdrop-filter: blur(10px);
         color: #fff;
@@ -26,9 +26,9 @@
         content: "Nemoooo";
         width: 100%;
         height: 20%;
-        background-color:  rgb(37, 29, 58);
-        clip-path: polygon(0% 0%, 100% 0, 100% 55%, 53% 23%, 0 26%);
-        }
+        background-color: rgb(37, 29, 58);
+        clip-path: polygon(0% 0%, 100% 0, 100% 68%, 50% 28%, 0 28%);
+    }
 
     .text > .navbar > .container > a > svg {
         width: 50%;
@@ -39,7 +39,7 @@
         font-family: Montserrat, sans-serif;
         letter-spacing: 2px;
         line-height: 100%;
-        margin-top: 215px;
+        margin-top: 60%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -141,7 +141,7 @@
         font-family: "Montserrat", sans-serif;
         width: fit-content;
         font-weight: 700;
-        padding-top: 31px ;
+        padding-top: 31px;
         border-bottom: 3px solid #ff7700;
     }
 
@@ -344,6 +344,7 @@
     .Packages > .cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .Packages > p {
@@ -355,9 +356,10 @@
         justify-items: center;
         align-items: center;
         border-radius: 8px 8px 0px 0px;
-        margin-left: 20px;
+        margin-left: 0;
         margin-top: 20px;
         border: transparent;
+        width: 106%;
     }
 
     .Packages > .cards > .card > h3 {
@@ -386,7 +388,7 @@
 
     .Packages > .cards > .card > div {
         width: 100%;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bold;
         border-radius: 8px 8px 0px 0px;
         display: flex;
@@ -470,8 +472,8 @@
         color: #fff;
         padding: 9px 4px;
         writing-mode: vertical-rl;
-        top: -8px;
-        left: 205px;
+        top: -7px;
+        left: 230px;
         width: 28px;
         line-height: 18px;
         font-size: 13px;
@@ -490,14 +492,7 @@
         top: 0px;
         width: 10px;
         border: 33px solid #e04d01;
-        clip-path: polygon(
-            26% -1%,
-            63% -1%,
-            129% 31%,
-            -41% 100%,
-            -34% 100%,
-            -37% 31%
-        );
+        clip-path: polygon(26% -1%, 63% -1%, 129% 31%, -41% 100%, -34% 100%, -37% 31%);
     }
 
     .testmonial {
@@ -509,13 +504,13 @@
         padding: 0px 50px;
     }
 
-    .testmonial > h4 {
+    .testmonial > h1 {
         font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 15px;
+        text-align: center;
+        line-height: 1.5;
     }
 
-    .testmonial > h4 > span {
+    .testmonial > h1 > span {
         border-bottom: 3px solid #ff7700;
     }
 
@@ -547,5 +542,9 @@
 
     .testmonial > .tes-cards > :nth-child(2), .testmonial > .tes-cards > :nth-child(3) {
         display: none;
+    }
+    h1{
+        font-size: 24px;
+        font-weight: 700;
     }
 }
