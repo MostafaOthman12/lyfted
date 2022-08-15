@@ -73,6 +73,7 @@
     }
 
     nav {
+        z-index: 1111111;
         font-family: "Inter", sans-serif;
         font-size: 14px;
         font-weight: bold;
