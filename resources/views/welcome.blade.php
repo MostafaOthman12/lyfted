@@ -307,7 +307,7 @@
             <a href="/service" class="btn btn-outline-danger">VIEW ALL SERVICES</a>
         </section>
         <section class="testmonial">
-            <h1>WHAT OUR C<span>LIENT</span>S ARE SAYING</h1>
+            <h1>WHAT OUR C<span class="sp1">LIENT</span><span class="sp2"> ARE SAYING</span></h1>
             <section class="tes-cards">
                 <section class="tes-card shadow-lg">
                     <p>Rasmus Rydstrøm-Poulsen</p>
