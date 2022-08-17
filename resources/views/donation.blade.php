@@ -56,9 +56,10 @@
         </svg>
         <h2> Our mission is to make an impact for those who have been impacted. </h2>
         <div class="d-text">
-            <p> We are proudly donante for a non profit organization </p>
-            <p> thousands of people like you help us stand up for recovred the impacted people </p>
-            <p> we rely on donation for those people and we will be happy if you would be part of it </p>
+            Lyfted Auto Detailing is in full support of families and loved ones suffering from addiction. We have
+            dedicated proceeds that will go directly to facilities that house men and women to help them regain control
+            of their life! All donations will go directly to non-profit organizations in Calgary, AB to help support
+            those who are affected from this disease we see as addiction.
         </div>
 
         <a class="btn btn-danger">

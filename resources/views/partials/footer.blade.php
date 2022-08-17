@@ -46,7 +46,7 @@
     <section class="footer-sec2 ">
         <section>
             <h5>CONTACT</h5>
-            <p><a href="tel:587-433-7810"><svg
+            <p><a href="tel:587-336-3491"><svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="12"
                         height="12"
@@ -57,7 +57,7 @@
                             transform="translate(0)"
                             fill="#fff"
                         />
-                    </svg>587-433-7810</a></p>
+                    </svg>587-336-3491</a></p>
         </section>
         <section>
             <h5>SERVICES</h5>

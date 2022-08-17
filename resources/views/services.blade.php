@@ -181,29 +181,26 @@
             </section>
 
         </section>
-        <section class="row">
-            <section class="container .ceramic polising">
-                <section class="row">
-                    <section class="ceramic shadow-lg">
-                        <section class="pol-body">
-                            <section class="co-ul">
-                                <div class="l-ul">
-                                    <ul>
-                                        <li>HEADLIGHT RESTORATION</li>
-                                        <li>69.00</li>
-                                        <li><a href="{{route("booking.index",["type" => "headlight restoration" ])}}"
-                                               class="btn btn-danger">Book now</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </section>
-                        </section>
-                    </section>
-                </section>
+        <section class="adds shadow-lg row">
+            <section class="heder">
+                <h4>All Add-ons are available at booking page</h4>
             </section>
+            <section class="body">
+                <ul>
+                    <li>Car Seat Shampoo</li>
+                    <li>Ceiling Shampoo</li>
+                    <li>Engine Bay Restoration</li>
+                    <li>Windshield Water Repellent</li>
 
+                </ul>
+                <ul>
+                    <li>Headlight Restoration</li>
+                    <li>Polish & Wax</li>
+                    <li>Odour Removal with Ozone Generator</li>
+
+                </ul>
+            </section>
         </section>
-
     </section>
 
 @endsection

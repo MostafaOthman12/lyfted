@@ -5,10 +5,12 @@ body {
 .contact h2 {
     font-size: 25px;
 }
+
 h4 {
     font-weight: bolder;
 
 }
+
 .Packages > .C {
     margin-bottom: 20px;
 }
@@ -95,10 +97,10 @@ hr {
     border-bottom: 1px solid rgb(224 77 1 / 0.2);
 
 }
+
 .co-ul :nth-child(3) {
     border-bottom: none;
 }
-
 
 
 .co-ul > div > ul {
@@ -111,5 +113,61 @@ hr {
 
 }
 
-.l-ul { border-bottom: none !important;}
+.l-ul {
+    border-bottom: none !important;
+}
 
+.adds {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.adds .heder {
+    width: 100%;
+    border-bottom: 3px solid #ff7700;
+    padding: 5px;
+    padding-top: 20px;
+
+}
+
+.adds h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.adds .body {
+    display: flex;
+    padding: 20px;
+}
+.adds .body > ul {
+    margin: 20px;
+}
+.adds .body > ul > li {
+    text-align: start;
+    line-height: 3;
+    list-style: none;
+}
+
+.adds .body  > ul > li::before {
+    content: "\2022";
+    color: #ff7700;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+@media screen and (max-width: 988px) {
+.cards {
+    flex-direction: column !important;
+
+}
+    h2 {
+        font-size: 125% !important;
+    }
+    .contact p {
+        display: none;
+
+    }
+}

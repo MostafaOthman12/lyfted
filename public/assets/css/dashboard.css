@@ -1,0 +1,13 @@
+body{
+    overflow-x: scroll;
+}
+table {
+    margin: 10px;
+    line-height: 3;
+}
+thead > tr > th{
+    border-bottom: 3px solid #FF7700 !important;
+}
+td, th{
+    border-color: #FF7700;
+}

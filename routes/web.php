@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,18 +19,21 @@ Route::get('/', function () {
 
 Route::get("/contact", function () {
     return view('contact');
-});
+})->name('Contact');
 Route::get('/service', function () {
     return view('services');
-});
+})->name('Service');;
 
 Route::get('/donation', function () {
     return view('donation');
-});
+})->name('Donation');;
 Route::get('/profile', function () {
     return view('portfolio');
 });
 Route::get('/giftcard', function () {
     return view('giftcard');
-});
-Route::resource('booking', "App\\Http\\Controllers\\BookingController");
+})->name('Gift Card');
+Route::resource('booking', "App\\Http\\Controllers\\BookingController")->name('',"Booking");
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('Dashboard');
